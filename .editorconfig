@@ -1,0 +1,10 @@
+root = true
+
+[*]
+indent_size = 4
+indent_style = tab
+insert_final_newline = true
+
+[*.{js,ts,md,json}]
+indent_style = space
+indent_size = 2
