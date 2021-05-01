@@ -1,33 +1,33 @@
 {
-  "name": "@bockensm/eslint-config",
-  "version": "2.0.0",
-  "description": "My preferred ESLint settings",
-  "main": "index.js",
-  "scripts": {
-    "test": "npm run --silent tests-only",
-    "tests-only": "eslint index.js && node .",
-    "preversion": "npm run test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bockensm/eslint-config.git"
-  },
-  "keywords": [
-    "eslint",
-    "eslint-config"
-  ],
-  "author": "Mark Bockenstedt",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/bockensm/eslint-config/issues"
-  },
-  "homepage": "https://github.com/bockensm/eslint-config",
-  "devDependencies": {
-    "eslint": "^7.25.0",
-    "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.22.1"
-  },
-  "peerDependencies": {
-    "eslint": "^7.25.0"
-  }
+    "name": "@bockensm/eslint-config",
+    "version": "2.0.0",
+    "description": "My preferred ESLint settings",
+    "main": "index.js",
+    "scripts": {
+        "test": "npm run --silent tests-only",
+        "tests-only": "eslint index.js && node .",
+        "preversion": "npm run test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/bockensm/eslint-config.git"
+    },
+    "keywords": [
+        "eslint",
+        "eslint-config"
+    ],
+    "author": "Mark Bockenstedt",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/bockensm/eslint-config/issues"
+    },
+    "homepage": "https://github.com/bockensm/eslint-config",
+    "devDependencies": {
+        "eslint": "^7.25.0",
+        "eslint-config-airbnb-base": "^14.2.1",
+        "eslint-plugin-import": "^2.22.1"
+    },
+    "peerDependencies": {
+        "eslint": "^7.25.0"
+    }
 }
