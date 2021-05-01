@@ -4,7 +4,9 @@
   "description": "My preferred ESLint settings",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run --silent tests-only",
+    "tests-only": "eslint index.js && node .",
+    "preversion": "npm run test"
   },
   "repository": {
     "type": "git",
@@ -20,8 +22,12 @@
     "url": "https://github.com/bockensm/eslint-config/issues"
   },
   "homepage": "https://github.com/bockensm/eslint-config",
+  "devDependencies": {
+    "eslint": "^7.25.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  },
   "peerDependencies": {
-    "eslint": "^7.24.0",
-    "eslint-config-airbnb-base": "^14.2.1"
+    "eslint": "^7.25.0"
   }
 }
