@@ -101,6 +101,7 @@ module.exports = {
     "vars-on-top": [ "off" ],
   },
 
+  parser: "@typescript-eslint/parser",
 
   // Copied from github.com/wesbos/eslint-config-wesbos
   parserOptions: {
