@@ -16,6 +16,9 @@
         "eslint",
         "eslint-config"
     ],
+    "publishConfig": {
+        "access": "public"
+    },
     "author": "Mark Bockenstedt",
     "license": "MIT",
     "bugs": {
