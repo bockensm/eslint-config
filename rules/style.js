@@ -125,7 +125,7 @@ module.exports = {
       },
     ],
     "max-statements": "off",
-    "multiline-comment-style": [ "error", "starred-block" ],
+    "multiline-comment-style": [ "error", "bare-block" ],
     "multiline-ternary": [ "error", "always-multiline" ],
     "new-cap": [ "error", {
       newIsCap: true,
