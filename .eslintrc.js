@@ -8,8 +8,6 @@ module.exports = {
     "./rules/es6",
   ].map( require.resolve ),
 
-  parser: "@typescript-eslint/parser",
-
   // Copied from github.com/wesbos/eslint-config-wesbos
   parserOptions: {
     ecmaVersion: 2020,
