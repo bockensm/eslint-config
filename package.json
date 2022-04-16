@@ -1,12 +1,13 @@
 {
     "name": "@bockensm/eslint-config",
-    "version": "4.1.0",
+    "version": "4.1.1",
     "description": "My preferred ESLint settings",
     "main": "index.js",
     "scripts": {
         "test": "npm run --silent tests-only",
         "tests-only": "eslint index.js && node .",
-        "preversion": "npm run test"
+        "preversion": "npm run test",
+        "lint": "eslint ."
     },
     "repository": {
         "type": "git",

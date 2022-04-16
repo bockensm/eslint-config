@@ -19,8 +19,10 @@ module.exports = {
     "no-new-symbol": "error",
     "no-restricted-exports": [ "error", {
       restrictedNamedExports: [
-        "default", // use `export default` to provide a default export
-        "then", // this will cause tons of confusion when your module is dynamically `import()`ed
+        // use `export default` to provide a default export
+        "default",
+        // this will cause tons of confusion when your module is dynamically `import()`ed
+        "then",
       ],
     } ],
     "no-restricted-imports": [ "off", {
