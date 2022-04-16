@@ -26,11 +26,8 @@
     },
     "homepage": "https://github.com/bockensm/eslint-config",
     "devDependencies": {
-        "@typescript-eslint/parser": "^4.22.0",
-        "eslint": "^7.25.0",
-        "typescript": "^4.2.4"
-    },
-    "peerDependencies": {
-        "eslint": "^7.25.0"
+        "@typescript-eslint/parser": "^5.0.0",
+        "eslint": "^8.0.0",
+        "typescript": "^4.0.0"
     }
 }
