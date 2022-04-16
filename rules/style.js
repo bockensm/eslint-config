@@ -200,7 +200,7 @@ module.exports = {
       overrides: {
       },
     } ],
-    "object-curly-newline": [ "error", "always" ],
+    "object-curly-newline": "off",
     "object-curly-spacing": [ "error", "always" ],
     "object-property-newline": [ "error", {
       allowAllPropertiesOnSameLine: true,
